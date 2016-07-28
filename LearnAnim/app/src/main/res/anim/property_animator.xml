@@ -38,29 +38,19 @@
             android:valueTo="1"
             android:valueType="floatType" />
     </set>
-    <set>
+    <set
+        android:repeatMode="reverse"
+        android:repeatCount="1">
         <objectAnimator
             android:propertyName="x"
             android:duration="500"
             android:valueTo="0"
-            android:valueType="intType"/>
+            android:valueType="floatType"/>
         <objectAnimator
             android:propertyName="y"
             android:duration="500"
             android:valueTo="0"
-            android:valueType="intType"/>
-    </set>
-    <set>
-        <objectAnimator
-            android:propertyName="x"
-            android:duration="500"
-            android:valueTo="400"
-            android:valueType="intType"/>
-        <objectAnimator
-            android:propertyName="y"
-            android:duration="500"
-            android:valueTo="400"
-            android:valueType="intType"/>
+            android:valueType="floatType"/>
     </set>
 
 </set>
